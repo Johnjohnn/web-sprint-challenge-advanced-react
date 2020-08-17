@@ -12,10 +12,7 @@ test("form shows success message on submit with form details", () => {});
 
 it("submits correct values", () => {
     const { container } = render(<CheckoutForm />);
-    //========================================================================//
-    //  querySelector: returns the first Element within the document that     //
-    //                  matches the specified selector                        //
-    //========================================================================//
+ 
     const fname = container.querySelector('input[name="firstName"]');
     const lname = container.querySelector('input[name="lastName"]');
     const address = container.querySelector('input[name="address"]');
@@ -31,6 +28,6 @@ it("submits correct values", () => {
   
   test("Last Name Input label: ", () => {
     const { getByLabelText } = render(<CheckoutForm />);
-    
+
     getByLabelText("Last Name:");
   });
