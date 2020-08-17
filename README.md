@@ -31,10 +31,14 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. Explain how to build stateful class components.
 
 2. Describe the different phases of the component lifecycle.
+1: componentDidMount :  witch will be basically the birth / mounting 
+2: componenDidUpdate :   it grows  or it updates 
+3: compoenenDidUnmount : this will be Death/unmounting 
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
-4. Define stateful logic.
+4. Define stateful logic. 
+Stateful logis is basically any code that uses state ,  its like a perk that you are adding to a component ! 
 
 5. Describe how to test a React component with React Testing Library.
 
